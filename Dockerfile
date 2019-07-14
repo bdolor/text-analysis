@@ -19,7 +19,8 @@ RUN conda install --quiet --yes nltk=3.4.*
 
 RUN python -m nltk.downloader stopwords -d /home/$NB_USER/nltk_data/ && \
     python -m nltk.downloader wordnet -d /home/$NB_USER/nltk_data/ &&\
-    python -m nltk.downloader sentiwordnet -d /home/$NB_USER/nltk_data/
+    python -m nltk.downloader sentiwordnet -d /home/$NB_USER/nltk_data/ && \
+    python -m nltk.downloader averaged_perceptron_tagger -d /home/$NB_USER/nltk_data/
 
 USER root
 
