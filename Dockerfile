@@ -21,7 +21,7 @@ RUN python -m nltk.downloader stopwords -d /home/$NB_USER/nltk_data/ && \
     python -m nltk.downloader wordnet -d /home/$NB_USER/nltk_data/ &&\
     python -m nltk.downloader sentiwordnet -d /home/$NB_USER/nltk_data/ && \
     python -m nltk.downloader averaged_perceptron_tagger -d /home/$NB_USER/nltk_data/ && \
-    python -m nltk.downloader punkt -d /home/$NB_USER/nltk_data/ && \
+    python -m nltk.downloader punkt -d /home/$NB_USER/nltk_data/
 
 USER root
 
