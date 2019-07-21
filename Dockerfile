@@ -27,4 +27,7 @@ USER root
 
 RUN rm /home/$NB_USER/nltk_data/corpora/*.zip
 
+EXPOSE 8888
+
+# Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
