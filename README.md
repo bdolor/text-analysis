@@ -9,5 +9,5 @@ Text Analysis is a community maintained Jupyter Docker Stack image
 - `conda install --file requirements.txt`
 
 ### Docker (build an image and launch a notebook)
-- `docker build -t bdolor/text-analysis:1.0.0 .`
-- `docker run -p 8888:8888 bdolor/text-analysis:1.0.0`
+- `docker build -t bdolor/text-analysis:1.0.1 .`
+- `docker run -p 8888:8888 bdolor/text-analysis:1.0.1`
