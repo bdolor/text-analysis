@@ -12,7 +12,7 @@ RUN rmdir /home/$NB_USER/work
 
 USER $NB_UID
 
-RUN pip install --upgrade --quiet tensorflow-probability tensorflow
+RUN pip install --upgrade --quiet tensorflow==2.1.0 tensorflow-probability
 
 USER root
 
