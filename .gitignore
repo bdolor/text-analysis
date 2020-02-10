@@ -79,7 +79,7 @@ docs/_build/
 generated/
 
 #ipython notebook
-.ipynb_checkpoints/
+src/.ipynb_checkpoints/
 
 #vim
 *.swp

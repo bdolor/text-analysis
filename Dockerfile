@@ -17,6 +17,7 @@ RUN pip install --upgrade --quiet tensorflow==2.1.0 tensorflow-probability
 USER root
 
 COPY ./src/*.ipynb /home/$NB_USER/
+COPY ./data/*.pickle /home/$NB_USER/
 
 EXPOSE 8888
 
